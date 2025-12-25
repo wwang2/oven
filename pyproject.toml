@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oven"
+version = "0.1.0"
+description = "Slurm-like serverless workload orchestrator"
+requires-python = ">=3.10"
+dependencies = [
+    "modal",
+    "click",
+    "pydantic",
+    "rich",
+]
+
+[project.scripts]
+oven = "cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["oven_core*", "workloads*"]
+

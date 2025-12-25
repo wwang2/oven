@@ -1,0 +1,6 @@
+modal
+click
+pydantic
+rich
+pytest
+
