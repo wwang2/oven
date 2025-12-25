@@ -1,6 +1,6 @@
 # Oven
 
-Serverless cloud jobs, made simple.
+Serverless cloud jobs, made simple. modify \workloads to \you-project-name if you want.
 
 ## Installation
 
